@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/" href="ToDoList.jnlp">
+    <information>
+        <title>To do list</title>
+        <vendor>kkosiorowska</vendor>
+        <homepage href="http://localhost:8080/" />
+        <description>Testing Testing</description>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.8+" />
+		<extension name="JavaFX Runtime" href="http://dl.javafx.com/javafx-rt.jnlp"/>
+        <jar href="spwr-java-web-start.jar" />
+    </resources>
+    <application-desc main-class="app.Main" />
+</jnlp>
